@@ -1,0 +1,143 @@
+.layout-header {
+
+}
+
+.header-top__wrapper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.top-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-header__logo {
+    padding-top: 2px;
+}
+
+.top-header__img {
+    width: 200px;
+}
+
+.top-header__feedback {
+
+}
+
+.top-header__phone {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+}
+
+.top-header__phone::before {
+    position: absolute;
+    content: url(../../img/png/phone-call.png);
+    left: -28px;
+    top: 1px;
+    width: 17px;
+    opacity: 1 !important;
+}
+
+.top-header__phone:hover {
+    color: #FF6C00;
+}
+
+.top-header__email {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.top-header__email::before {
+    position: absolute;
+    content: url(../../img/png/email.png);
+    left: -28px;
+    top: 1px;
+    width: 17px;
+    opacity: 1 !important;
+}
+
+.top-header__email:hover {
+    color: #FF6C00;
+}
+
+.header-bot__wrapper {
+    /* border-bottom: 3px solid #FF6C00; */
+}
+
+.bot-header__link {
+    position: relative;
+}
+
+.bot-header__link:hover::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    top: -14px;
+    width: 100%;
+    padding: 0 9px;
+    background-color: #FF6C00;
+    transition: height .2s ease-in-out;
+    box-sizing: inherit;
+}
+
+.bot-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot-header__link {
+    font-family: Proxima Nova;
+    font-weight: normal !important;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    transition-duration: 300ms;
+    transition-property: color;
+    cursor: pointer;
+    text-transform: lowercase;
+    margin-right: 23px;
+}
+
+.bot-header__link:hover { 
+    color: #FF6C00;
+}
+
+.user-nav {
+    display: flex;
+}
+
+.user-nav__link {
+    font-family: Proxima Nova;
+    font-weight: normal !important;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    transition-duration: 300ms;
+    transition-property: color;
+    cursor: pointer;
+    text-transform: lowercase;
+    margin-right: 23px;
+}
+
+.user-nav__link:hover {
+    color: #FF6C00;
+}

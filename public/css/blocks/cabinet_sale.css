@@ -1,0 +1,25 @@
+.cabinet_sale__wrap {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 30px;
+}
+
+.cabinet_sale__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabinet_sale__element {
+    margin: 10px 0;
+}
+
+.cabinet_sale__element--first {
+    margin: 15px 0;
+    display: inherit;
+}
+
+.cabinet_sale__element--second {
+    margin: 10px 0;
+    display: flex;
+}
+
