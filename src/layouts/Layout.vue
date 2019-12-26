@@ -62,4 +62,27 @@ export default {
 }
 
 
+
+/* .router-link-exact-active {
+    content: '';
+    height: 4px;
+    top: -14px;
+    width: 100%;
+    padding: 0 9px;
+    position: absolute;
+    background-color: #FF6C00;
+    transition: height .2s ease-in-out;
+} */
+
+.router-link-exact-active::before {
+    content: '';
+    height: 4px;
+    top: -14px;
+    width: 100%;
+    padding: 0 9px;
+    position: absolute;
+    background-color: #FF6C00;
+    transition: height .2s ease-in-out;
+}
+
 </style>
